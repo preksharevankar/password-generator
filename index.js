@@ -4,7 +4,7 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 var rangeslider = document.getElementById("sliderRange");
 var output = document.getElementById("demo");
 output.innerHTML = rangeslider.value;
-let len = 0
+let len = 10
   
 rangeslider.oninput = function() {
   output.innerHTML = this.value;
